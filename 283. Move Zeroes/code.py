@@ -9,3 +9,11 @@ class Solution:
                 nums.append(i)
                 nums.remove(i)
         print(nums)
+       """
+        另一种方法
+        append_times=nums.count(0)
+        for i in range(append_times):
+            nums.remove(0)
+            nums.append(0)     
+        print(nums)
+       """
