@@ -5,7 +5,7 @@ class Solution:
         A2=[]
         for i in A:
             if i & 1:
-                A1.append(i)
+                A1.append(i)  #奇数
             else:
-                A2.append(i)
+                A2.append(i)  #偶数
         return list(chain(*zip(A2,A1)))
